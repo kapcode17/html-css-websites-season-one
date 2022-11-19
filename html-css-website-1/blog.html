@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice - Online Learning Platform</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="bi bi-x" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>From Our Blog</h1>
+    </section>
+
+    <!-- Blog Content -->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/professional1.jpg" alt="" />
+          <h2>Our Certificate & Online Programs For 2021</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus ratione, amet praesentium nam fugiat minima saepe ex ab dicta voluptatem ipsam est deserunt aliquid illum beatae, obcaecati iusto officia aliquam.</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde dolore aperiam vel necessitatibus dolorem hic accusantium qui ab consequatur, facilis, animi, sit quam dolores sint quos. Cum fugit id ad. Lorem ipsum, dolor sit
+            amet consectetur adipisicing elit. Nisi eum reprehenderit et inventore harum consequuntur, aut, excepturi iure possimus ad debitis maiores explicabo, ut maxime. Nulla explicabo dolor sunt consectetur!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore necessitatibus pariatur, sed enim eveniet iure neque quibusdam porro, nihil nam sapiente dolores. Beatae in ratione animi aperiam temporibus adipisci.
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+
+            <form action="" class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>AutoCAD</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>Journalism</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <img src="images/logo2.png" width="200px" alt="" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id vero illum animi recusandae minima nemo tenetur error at voluptatibus.<br />
+        Suscipit, beatae dolore numquam ex vero deleniti excepturi aliquam illum officia.
+      </p>
+
+      <div class="icons">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-linkedin"></i>
+      </div>
+      <p>Made with <i class="bi bi-heart"></i> by PIX GC</p>
+    </section>
+
+    <!-- JavaScript -->
+
+    <script>
+      var navLinks = document.getElementById("nav-links");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

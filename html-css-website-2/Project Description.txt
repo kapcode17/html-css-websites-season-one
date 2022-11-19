@@ -1,0 +1,5 @@
+i learn how to create a readable, neat & clean css code
+my practice website number 2
+inspired by startbootstrap template (https://startbootstrap.com/)
+
+date created: 14-8-2022
